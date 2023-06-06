@@ -1,0 +1,32 @@
+body {
+    height: 50;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 60px;
+}
+
+.bar-width {
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+#search-bar {
+    height: 50px;
+    width: 800px; 
+    font-size: 50px; 
+    padding: 40px 10px;
+}
+
+.btn {
+    position: absolute;
+    bottom: 90px;
+    left: 45%; 
+}
+
+button {
+    font-size: 40px;
+    padding: 10px 20px;
+}

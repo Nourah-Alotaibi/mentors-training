@@ -1,0 +1,38 @@
+.details{
+    font-size: 40PX;
+    height: 60vh;
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px 30px;
+    
+}
+.student{
+background-color: lightsteelblue;
+font-size: 1;
+}
+
+td {
+    padding: 50px;   
+}
+
+table {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 1 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.grade{
+    width: 80px;
+    height: 70px;
+    font-size: 40px;
+}
+.emoji{
+    width: 80px;
+    height: 70px;
+    font-size: 60px;
+}
