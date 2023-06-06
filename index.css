@@ -7,7 +7,7 @@ body {
     font-size: 60px;
 }
 
-.bar-width {
+.bar {
     display: flex;
     justify-content: center;
     margin-top: 15px;
