@@ -1,33 +1,200 @@
-.details{
-    font-size: 40PX;
-    height: 60vh;
-    display: inline-block;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    padding: 20px 30px; 
+     
+        #header {
+            font-size: 32px;
+            margin-top: 20px;
+            padding: 20px;
+            font-family: 'Times New Roman', Times, serif;
+            color: rgb(109, 62, 96);
+        }
+
+        .details {
+            max-width: 100%;
+            margin: 0 auto;
+            padding: 10px;
+            box-sizing: border-box;
+            font-size: 20px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            padding: 8px;
+            width: 70%;
+            overflow: visible; /* Change to auto to enable scrolling */
+        }
+
+        body {
+            background-image: url("pictures/gradient.png");
+            background-size: cover;
+        }
+
+        td {
+            border: 1px solid rgb(101, 101, 101);
+            background-color: rgba(255, 255, 255, 0.5);
+            padding: 16px;
+        }
+        .emoji-popup {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            background-color: white;
+            border: 1px solid black;
+            padding: 10px;
+            display: none;
+        }
+
+        .emoji-popup button {
+            font-size: 20px;
+            margin: 5px;
+            padding: 5px 10px;
+        }
+
+        table {
+            background-color: transparent;
+            width: 100%; /* Change to 100% to fill the available width */
+            table-layout: auto;
+            backface-visibility: hidden;
+            border-spacing: 0.5px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            color: rgb(28, 26, 59);
+        }
+
+        .grade {
+            width: 50px;
+            height: 30px;
+            font-size: 20px;
+            padding: 8px;
+        }
+
+        
+#final {
+    min-width: 200px; /* Add min-width property to maintain the desired width */
+    width: auto;
+    height: 60px;
+    font-size: 20px;
+    padding: 8px;
+}
+        .snack {
+            font-size: 20px;
+            width: 90px;
+            height: 20px;
+            padding: 8px;
+        }
+
+        .emoji-container {
+            display: flex;
+            align-items: center;
+        }
+
+        .emoji {
+            width: 30px;
+            height: 30px;
+            font-size: 20px;
+            padding: 8px;
+        }
+
+        .imp {
+  font-size: 16px; /* Adjust the font size as needed */
+  justify-content: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 5px 4px; 
+  width: 25px;
+  height: 25px;
+  position: relative; /* Add position: relative */
+  top: 0; /* Add top: 0 */
+  left: 0; /* Add left: 0 */
 }
 
-td {
-    padding: 50px;   
-}
+        .student-email {
+            width: 160px;
+            height: 30px;
+            font-size: 20px;
+            padding: 8px;
+        }
 
-table {
-    width: 100%;
-    border-collapse: separate;
-    border-spacing: 1 50px;
+        .student-name {
+            width: 150px;
+            height: 30px;
+            font-size: 20px;
+            justify-content: center;
+            padding: 8px;
+        }
+        .button-container {
+    display: flex;
+    justify-content: flex-end; /* Align buttons to the right */
+    margin-top: 20px;
+    margin-bottom: 30px;
+    width: 100%; /* Set width to 100% to ensure buttons span the full width */
+    padding-right: 10px; /* Add right padding to create some spacing */
+}
+.button-contains {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start; /* Align items to the top */
+    margin-top: 5px;
+    margin-bottom: 30px;
+    padding: 10px; /* Add padding to create spacing */
+    position: fixed; /* Add position: fixed to keep the button fixed on the screen */
+    top: 1px; /* Adjust the top position as needed */
+    left: 180px; /* Adjust the left position as needed */
+  }
+
+  #go-back-button {
+    font-size: 20px;
+    padding: 8px 16px;
+  }
+
+#add-row-button {
+    font-size: 35px;
+    margin-right: 10px;
+    padding: 5px;
+    width: 40px;
+    height: 40px;
     display: flex;
     justify-content: center;
     align-items: center;
-    text-align: center;
 }
-.grade{
-    width: 80px;
-    height: 70px;
-    font-size: 40px;
+
+#delete-rows-button {
+    font-size: 36px;
+    padding: 5px;
+    width: 40px;
+    height: 40px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
-.emoji{
-    width: 80px;
-    height: 70px;
-    font-size: 60px;
-}
+
+
+        #student-table {
+            width: 100%;
+            table-layout: fixed;
+        }
+
+        #student-table th {
+            position: sticky;
+            top: 0;
+            background-color: #f5f5f5;
+            z-index: 2;
+        }
+
+        #student-table tr:first-child td {
+            position: sticky;
+            top: 0; /* Change to 0 to make the first row fixed at the top */
+            background-color: #fff;
+            z-index: 1;
+        }
+
+        .send {
+            font-size: 20px;
+            width: 120px;
+             min-width: 120px;
+            height: 20px;
+            padding: 8px;
+        }

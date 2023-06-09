@@ -1,32 +1,73 @@
-body {
+  body {
     height: 50;
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
-    font-size: 60px;
+    font-size: 30px;
+   background-image: url(pictures/class.jpg);
+   background-color: rgba(255, 255, 255, 1);
+   background-size: cover;
+  
 }
+
 
 .bar {
     display: flex;
     justify-content: center;
     margin-top: 15px;
+    text-align: center;
 }
 
 #search-bar {
-    height: 50px;
-    width: 800px; 
-    font-size: 50px; 
-    padding: 40px 10px;
+    color: rgb(17, 36, 52);
+    height: 30px;
+    width: 600px; 
+    font-size: 20px; 
+    padding: 20px 10px;
+    text-align: center;
 }
 
 .btn {
-    position: absolute;
-    bottom: 90px;
-    left: 45%; 
+    display: flex;
+    justify-content: flex-end; 
+    margin-top: 90px;
+    margin-bottom: 30px;
+    padding: 10px; 
+    position: fixed; 
+    top:-30px; 
+    right: 399px;
 }
 
-button {
-    font-size: 40px;
-    padding: 10px 20px;
+#go-forward-button {
+    font-size: 20px;
+    padding: 8px 16px;
 }
+.h22{
+    color:aliceblue;
+}
+  
+ 
+#list {
+     
+    width: 100%;
+    border: none;
+    text-align: center;
+}
+ 
+    .list {
+        font-size: 30px;
+        font-weight: 600;
+        color: rgb(26, 59, 88);
+        padding: none;
+        margin: none;
+        border: 1px solid;
+        border-color: rgb(255, 255, 255);
+        background-color: rgba(245, 255, 260, 0.5);
+        text-align: center;
+        flex-direction: column;
+        display: flex; /* Add display:flex */
+        justify-content: center; /* Add justify-content: center */
+        align-items: center; /* Add align-items: center */
+    }
+ 
